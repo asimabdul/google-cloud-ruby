@@ -44,6 +44,7 @@ module Google
         ##
         # Creates a new Service instance.
         def initialize project, credentials, retries: nil, timeout: nil
+          p 'coming from the gem'
           @project = project
           @credentials = credentials
           @retries = retries
